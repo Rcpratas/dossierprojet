@@ -62,7 +62,7 @@ include("../templates/header.php"); ?>
                                     <th scope="col">Ferme</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-group-divider">
+                            <tbody class="table-group-divider" id="hor">
                                 <?php
                                 // fonction pour afficher horaires
                                 $query = "SELECT * FROM horaires";

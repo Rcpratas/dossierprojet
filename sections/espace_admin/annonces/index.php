@@ -59,8 +59,8 @@ include("../../../templates/header.php");
                             <td><?= $row['marque']; ?></td>
                             <td><?= $row['modele']; ?></td>
                             <td><?= $row['annee']; ?></td>
-                            <td><?= $row['kilometrage']; ?></td>
-                            <td><?= $row['prix']; ?></td>
+                            <td><?= $row['kilometrage'].'km'; ?></td>
+                            <td><?= $row['prix'].'€'; ?></td>
                             <td><a href="editer.php?id=<?= $row['id']; ?>" class="Btn-icon">
                                     <img src="../../../assets/images/edit_icon.png" height="30px"></a></td>
                             <td><a href="supprimer.php?id=<?= $row['id']; ?>" class="Btn-icon">

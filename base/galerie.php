@@ -2,8 +2,11 @@
 
 include('connexion.php');
 include("../templates/header.php");
+
+
 ?>
 <link rel="stylesheet" href="style.css">
+
 
 <div class="container">
     <nav class="navbar navbar-light bg-light">
@@ -11,7 +14,12 @@ include("../templates/header.php");
         <button class="btn btn-primary btn-sm">
             <a class="navbar-brand" href="../public/index.php">Sortir</a>
         </button>
+
+
     </nav>
+    <!----------   Filtre de voitures -------------->
+
+
     <div class="container p-2 mt-5">
         </table>
         <table class="table">
@@ -39,8 +47,8 @@ include("../templates/header.php");
                             <td><?= $row['marque']; ?></td>
                             <td><?= $row['modele']; ?></td>
                             <td><?= $row['annee']; ?></td>
-                            <td><?= $row['kilometrage']; ?></td>
-                            <td><?= $row['prix']; ?></td>
+                            <td><?= $row['kilometrage'] . 'Km'; ?></td>
+                            <td><?= $row['prix'] . '€'; ?></td>
                             <td><img src="../assets/images/berline.jpg" alt="berline" width="50px" height="50px"></td>
                         </tr>
                     <?php }
@@ -57,3 +65,4 @@ include("../templates/header.php");
     </div>
 </div>
 </div>
+
