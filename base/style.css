@@ -9,11 +9,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #bbc5da;
+    background-color: #eff2f8;
 }
 
 body nav .logo a img:hover {
-
     border-radius: 30%;
     transform: scale(1.5);
     transition: ease-in-out 0.5s;
@@ -26,6 +25,7 @@ body nav .logo a img:hover {
     z-index: -2;
 }
 
+
 footer p {
     display: flex;
     position: relative;
@@ -34,9 +34,8 @@ footer p {
     color: black;
 }
 
-
 @media only screen and (max-width: 767px) {
-  
+    
   }
   
 

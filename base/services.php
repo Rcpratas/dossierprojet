@@ -4,7 +4,6 @@ include('connexion.php');
 include("../templates/header.php");
 
 ?>
-<link rel="stylesheet" href="style.css">
 
 <div class="container">
 
@@ -12,7 +11,7 @@ include("../templates/header.php");
 
         <h2>Liste de services</h2>
         <button class="btn btn-primary btn-sm">
-            <a class="navbar-brand" href="../public/index.php">Sortir</a>
+            <a class="navbar-brand" href="../index.php">Sortir</a>
         </button>
     </nav>
 

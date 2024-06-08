@@ -1,9 +1,9 @@
 <?php
 session_start();
-include('../../../base/connexion.php');
+include("../../../base/connexion.php");
 include("../../../templates/header.php");
 ?>
-<link rel="stylesheet" href="../../../base/style.css">
+
 
 
 <div class="container">
@@ -15,7 +15,7 @@ include("../../../templates/header.php");
     endif;
     ?>
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-dark">
         <h2>Liste annonces de voitures d'occasion</h2>
         <a class="navbar-brand" href="../index.php">
             <img src="../../../assets/images/admin_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">Sortir</a>

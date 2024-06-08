@@ -3,9 +3,8 @@ session_start();
 include('../../../base/connexion.php');
 include("../../../templates/header.php");
 ?>
+
 <link rel="stylesheet" href="../../../base/style.css">
-
-
 <div class="container">
 
     <?php if (isset($_SESSION['message'])) : ?>

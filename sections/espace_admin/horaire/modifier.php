@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     $stmt->execute();
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 ?>
-<link rel="stylesheet" href="../../../base/style.css">
+
 
 
     <div class="container">

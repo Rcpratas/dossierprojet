@@ -4,7 +4,7 @@ include('../../../base/connexion.php');
 include("../../../templates/header.php");
 
 ?>
-<link rel="stylesheet" href="../../../base/style.css">
+
 
 <div class="container">
 

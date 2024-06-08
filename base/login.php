@@ -57,14 +57,14 @@ include("../templates/header.php"); ?>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
   <div class="container-fluid">
-    <a class="navbar-brand" id="logo" href="../public/index.php"><img src="../assets/images/logo.jpg" width="80" heigth="80"></a>
+    <a class="navbar-brand" id="logo" href="../index.php"><img src="../assets/images/logo.jpg" width="80" heigth="80"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../public/index.php">Retour à l'accueil</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">Retour à l'accueil</a>
         </li>
     </div>
   </div>
@@ -78,29 +78,29 @@ include("../templates/header.php"); ?>
 <!-- Display the login form -->
 
 
-
-<div class="container mt-5">
-  <div class="row justify-content-center">
-    <div class="col-4">
-      <div class="card bg-light p-5 shadow-mt-5">
-        <div class=" d-flex justify-content-center">
-          <h2>Login</h2>
-      </div>
-        <hr>
-        <form action="login.php" method="post">
-          <div class="mb-3">
-            <label for="username" class="form-label">Username :</label>
-            <input type="username" name="username" autocomplete="off" class="form-control" id="username" aria-describedby="username" required>
+<div class="login">
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <div class="card bg-light p-5 shadow-mt-5">
+          <div class=" d-flex justify-content-center">
+            <h2>Login</h2>
           </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password :</label>
-            <input type="password" name="password" autocomplete="new-password" class="form-control" id="password" required>
-          </div>
+          <hr>
+          <form action="login.php" method="post">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username :</label>
+              <input type="username" name="username" autocomplete="off" class="form-control" id="username" aria-describedby="username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password :</label>
+              <input type="password" name="password" autocomplete="new-password" class="form-control" id="password" required>
+            </div>
             <input name="login" type="submit" value="login" class="btn btn-primary w-100" />
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
 <?php include("../templates/footer.php"); ?>
